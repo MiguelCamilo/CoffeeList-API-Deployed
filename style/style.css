@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+span {
+    color: #582f0e;
+    font-weight:800;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+.textColor {
+    color: #774936;
+}
+
+.dropDownColor {
+    background-color: #ede0d4;
+}
+
+.dropDownMenuColor {
+    background-color: #ede0d4;
+}
