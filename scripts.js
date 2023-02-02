@@ -1,4 +1,3 @@
-
 const coffeeList = document.getElementById("coffeeList");
 
 const addSingleCoffee = (coffee) => {
@@ -23,13 +22,15 @@ const newCoffeeList = (listOfCoffees) => {
 // func to fetch api data
 const getCoffee = (type) => {
 	coffeeList.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
-    
+
 	setTimeout(() => {
 		fetch(`https://api.sampleapis.com/coffee/${type}`)
 			.then((res) => res.json()) // returns a promise and .json() just grabs the body
 			.then((data) => {
 				// list data on screen
 				newCoffeeList(data);
+                // will add the text before the list of data
+				coffeeList.insertAdjacentHTML("afterbegin", `<strong>LIST: <strong>`);
 			})
 			.catch((err) => console.log(err));
 	}, 1000);

@@ -12,4 +12,4 @@ Deployed API connected to MongoDB using Google Cloud
 
 ## ![screen shot](./img/screenshot.png)
 
-## See the live demo here [click here.](https://fetch-coffee-api.web.app)
+## See the live demo [click here.](https://fetch-coffee-api.web.app)
