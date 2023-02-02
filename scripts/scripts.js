@@ -1,5 +1,6 @@
 const coffeeList = document.getElementById("coffeeList");
 
+// returns an <li> with a coffee item
 const addSingleCoffee = (coffee) => {
 	const newListItem = document.createElement("div"); // creates a list item
 	const newText = document.createTextNode(coffee.title); // create an element with the title from the object

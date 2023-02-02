@@ -10,6 +10,6 @@ Deployed API connected to MongoDB using Google Cloud
 4. Fetch Function
 5. Promises
 
-## ![screen shot](./img/screenshot.png)
+## ![screen shot](./images/screenshot.png)
 
 ## See the live demo [click here.](https://fetch-coffee-api.web.app)
