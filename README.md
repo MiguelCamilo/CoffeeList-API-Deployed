@@ -12,4 +12,4 @@ Deployed API connected to MongoDB using Google Cloud
 
 ## ![screen shot](./img/screenshot.png)
 
-## See the the repo [click here.](https://github.com/MiguelCamilo/Deploy-MongoDB-API)
+## See the the repo [click here.](https://github.com/MiguelCamilo/CoffeeList-API-Deployed)
